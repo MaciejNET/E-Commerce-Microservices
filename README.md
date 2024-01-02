@@ -1,7 +1,5 @@
 # Ecommerce Web Api
 
-![example workflow](https://github.com/MaciejNET/E-Commerce/actions/workflows/dotnet.yml/badge.svg)
-
 This project is an Ecommerce Web API built using the microservices architecture. Each service is responsible for a specific business capability. Services communicate with each other using messages via RabbitMq message broker. The Gateway is responsible for routing the requests to the appropriate microservices.. It's designed to study and practice Domain-Driven Design (DDD) concepts. The project is written in C# and uses .NET 7, Docker, PostgreSQL, xUnit, Convey, RabbitMQ.
 
 ## Event Storming
