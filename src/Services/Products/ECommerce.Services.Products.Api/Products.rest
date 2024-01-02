@@ -1,0 +1,71 @@
+@url = http://localhost:5000/products-module
+@productId = b7a18d3f-ef9d-4fae-acfa-3b174a9fcf3a
+@searchText = 
+@categoryId = 
+@minPrice = 
+@maxPrice = 
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZWI5OGMxMC03MjBhLTRiNjktYjliYy0wODA2OGY4YjlhNGEiLCJ1bmlxdWVfbmFtZSI6ImFlYjk4YzEwLTcyMGEtNGI2OS1iOWJjLTA4MDY4ZjhiOWE0YSIsImp0aSI6ImY2OWVlYjgwLWU1ZDEtNDczNi1iYmMxLTdlMmFiNjI1M2QyYyIsImlhdCI6IjE2OTMyMjI4ODEzNTgiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsInBlcm1pc3Npb25zIjpbInVzZXJzIiwicHJvZHVjdHMiLCJyZXZpZXdzIiwiZGlzY291bnRzIiwiY2F0ZWdvcmllcyIsInJldHVybnMiLCJvcmRlcnMiLCJjYXJ0cyJdLCJuYmYiOjE2OTMyMjI4ODEsImV4cCI6MTY5MzIyNjQ4MSwiaXNzIjoiZWNvbW1lcmNlIn0.VcolPTZWXA0xDZdp4jeYTwmbmQBpfUy4qcMcPbXIz8A
+
+###
+GET {{url}}
+
+###
+GET {{url}}/Category
+
+###
+POST {{url}}/Category
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "name": "Category #1"
+}
+
+###
+GET {{url}}/Product/{{productId}}
+
+###
+GET {{url}}/Product?searchText={{searchText}}&categoryId={{categoryId}}&minPrice={{minPrice}}&maxPrice={{maxPrice}}
+
+
+###
+POST {{url}}/Product
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "category": "Category #1",
+  "name": "Test1",
+  "manufacturer": "Test",
+  "description": "Lorem Ipsum",
+  "sku": "TEST-SKU-333",
+  "standardPrice": {
+    "amount": 233.33,
+    "currency": "PLN"
+  },
+  "imageUrl": "testurl",
+  "stockQuantity": 1000
+}
+
+###
+PUT {{url}}/Product/{{productId}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "category": "Category #1",
+  "name": "Test",
+  "manufacturer": "Test",
+  "description": "Lorem Ipsum",
+  "sku": "TEST-SKU",
+  "standardPrice": {
+    "amount": 233.33,
+    "currency": "PLN"
+  },
+  "imageUrl": "testurl",
+  "stockQuantity": 1000
+}
+
+###
+DELETE {{url}}/Product/{{productId}}
+Authorization: Bearer {{accessToken}}

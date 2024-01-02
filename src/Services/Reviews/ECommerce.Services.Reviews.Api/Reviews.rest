@@ -1,0 +1,42 @@
+@url = http://localhost:5000/reviews-module
+@reviewId = d8caa408-9a16-461c-8483-c6ac7236c006
+@productId = 63a50b88-9baa-4c11-98c8-a15360c2b8bb
+@userId = 3cd9e6db-e814-442d-8997-aad7f2cd24c4
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZWI5OGMxMC03MjBhLTRiNjktYjliYy0wODA2OGY4YjlhNGEiLCJ1bmlxdWVfbmFtZSI6ImFlYjk4YzEwLTcyMGEtNGI2OS1iOWJjLTA4MDY4ZjhiOWE0YSIsImp0aSI6ImY2OWVlYjgwLWU1ZDEtNDczNi1iYmMxLTdlMmFiNjI1M2QyYyIsImlhdCI6IjE2OTMyMjI4ODEzNTgiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsInBlcm1pc3Npb25zIjpbInVzZXJzIiwicHJvZHVjdHMiLCJyZXZpZXdzIiwiZGlzY291bnRzIiwiY2F0ZWdvcmllcyIsInJldHVybnMiLCJvcmRlcnMiLCJjYXJ0cyJdLCJuYmYiOjE2OTMyMjI4ODEsImV4cCI6MTY5MzIyNjQ4MSwiaXNzIjoiZWNvbW1lcmNlIn0.VcolPTZWXA0xDZdp4jeYTwmbmQBpfUy4qcMcPbXIz8A
+
+###
+GET {{url}}
+
+###
+GET {{url}}/Review/product/{{productId}}
+
+###
+GET {{url}}/Review/user
+Authorization: Bearer {{accessToken}}
+
+###
+POST {{url}}/Review
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "name": "Example",
+  "email": "testreview@example.com",
+  "content": "Test",
+  "rating": 5,
+  "productId": "63a50b88-9baa-4c11-98c8-a15360c2b8bb"
+}
+
+###
+PUT {{url}}/Review/{{reviewId}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "content": "Test",
+  "rating": 5
+}
+
+###
+DELETE {{url}}/Review/{{reviewId}}
+Authorization: Bearer {{accessToken}}

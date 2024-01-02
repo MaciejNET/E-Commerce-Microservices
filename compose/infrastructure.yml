@@ -1,0 +1,115 @@
+version: '3'
+
+services:
+  discounts-postgres:
+    container_name: discounts-service
+    image: postgres
+    shm_size: '1gb'
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5433:5432"
+    volumes:
+      - "./data/discounts_db:/var/lib/postgresql/data"
+    networks:
+      - ecommerce
+
+  orders-postgres:
+    container_name: orders-service
+    image: postgres
+    shm_size: '1gb'
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5434:5432"
+    volumes:
+      - "./data/orders_db:/var/lib/postgresql/data"
+    networks:
+      - ecommerce
+
+  products-postgres:
+    container_name: products-service
+    image: postgres
+    shm_size: '1gb'
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5435:5432"
+    volumes:
+      - "./data/products_db:/var/lib/postgresql/data"
+    networks:
+      - ecommerce
+
+  returns-postgres:
+    container_name: returns-service
+    image: postgres
+    shm_size: '1gb'
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5436:5432"
+    volumes:
+      - "./data/returns_db:/var/lib/postgresql/data"
+    networks:
+      - ecommerce
+
+  reviews-postgres:
+    container_name: reviews-service
+    image: postgres
+    shm_size: '1gb'
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5437:5432"
+    volumes:
+      - "./data/reviews_db:/var/lib/postgresql/data"
+    networks:
+      - ecommerce
+
+  users-postgres:
+    container_name: users-service
+    image: postgres
+    shm_size: '1gb'
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - "5438:5432"
+    volumes:
+      - "./data/users_db:/var/lib/postgresql/data"
+    networks:
+      - ecommerce
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    restart: unless-stopped
+    ports:
+      - 5672:5672
+      - 15672:15672
+      - 15692:15692
+    networks:
+      - ecommerce
+
+volumes:
+  discounts_db:
+    driver: local
+  orders_db:
+    driver: local
+  products_db:
+    driver: local
+  returns_db:
+    driver: local
+  reviews_db:
+    driver: local
+  users_db:
+    driver: local
+
+networks:
+  ecommerce:
+    name: ecommerce

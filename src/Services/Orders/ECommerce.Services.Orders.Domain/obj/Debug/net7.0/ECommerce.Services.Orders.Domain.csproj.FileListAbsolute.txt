@@ -1,0 +1,17 @@
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Services.Orders.Domain.deps.json
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Services.Orders.Domain.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Services.Orders.Domain.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Shared.Abstractions.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Shared.Infrastructure.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Shared.Infrastructure.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/bin/Debug/net7.0/ECommerce.Shared.Abstractions.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.csproj.AssemblyReference.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.AssemblyInfoInputs.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.AssemblyInfo.cs
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.csproj.CoreCompileInputs.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.csproj.CopyComplete
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/refint/ECommerce.Services.Orders.Domain.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ECommerce.Services.Orders.Domain.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Orders/ECommerce.Services.Orders.Domain/obj/Debug/net7.0/ref/ECommerce.Services.Orders.Domain.dll

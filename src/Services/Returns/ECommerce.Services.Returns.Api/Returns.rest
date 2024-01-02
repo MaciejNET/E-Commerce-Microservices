@@ -1,0 +1,42 @@
+@url = http://localhost:5000/returns-module
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZWI5OGMxMC03MjBhLTRiNjktYjliYy0wODA2OGY4YjlhNGEiLCJ1bmlxdWVfbmFtZSI6ImFlYjk4YzEwLTcyMGEtNGI2OS1iOWJjLTA4MDY4ZjhiOWE0YSIsImp0aSI6IjM4YjA1ZjM3LTcwMGUtNDAwMS1iMzZhLThkZmUyNDQzNzFhMyIsImlhdCI6IjE2OTMzMzU3MzM4ODQiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsInBlcm1pc3Npb25zIjpbInVzZXJzIiwicHJvZHVjdHMiLCJyZXZpZXdzIiwiZGlzY291bnRzIiwiY2F0ZWdvcmllcyIsInJldHVybnMiLCJvcmRlcnMiLCJjYXJ0cyJdLCJuYmYiOjE2OTMzMzU3MzMsImV4cCI6MTY5MzMzOTMzMywiaXNzIjoiZWNvbW1lcmNlIn0.GBE1RfddLsWCmoN2AyiBaAl7Q-iX7YXiISfOHCeN4F0
+
+###
+GET {{url}}
+
+###
+GET {{url}}/Return
+Authorization: Bearer {{accessToken}}
+
+###
+GET {{url}}/Return/to-check
+Authorization: Bearer {{accessToken}}
+
+###
+POST {{url}}/Return
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "orderId": "E24F3EA6-CB83-485D-836D-E15E7CC83867",
+  "sku": "TEST-SKU-333",
+  "type": 0
+}
+
+###
+POST {{url}}/Return/accept
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "id": ""
+}
+
+###
+POST {{url}}/Return/decline
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "id": ""
+}

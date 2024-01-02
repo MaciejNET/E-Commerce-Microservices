@@ -1,0 +1,17 @@
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Services.Products.Core.deps.json
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Services.Products.Core.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Services.Products.Core.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Shared.Abstractions.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Shared.Infrastructure.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Shared.Infrastructure.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/bin/Debug/net7.0/ECommerce.Shared.Abstractions.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.csproj.AssemblyReference.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.AssemblyInfoInputs.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.AssemblyInfo.cs
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.csproj.CoreCompileInputs.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.csproj.CopyComplete
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/refint/ECommerce.Services.Products.Core.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ECommerce.Services.Products.Core.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Products/ECommerce.Services.Products.Core/obj/Debug/net7.0/ref/ECommerce.Services.Products.Core.dll

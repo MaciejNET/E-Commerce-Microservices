@@ -1,0 +1,41 @@
+@url = http://localhost:5060/users-service
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZWI5OGMxMC03MjBhLTRiNjktYjliYy0wODA2OGY4YjlhNGEiLCJ1bmlxdWVfbmFtZSI6ImFlYjk4YzEwLTcyMGEtNGI2OS1iOWJjLTA4MDY4ZjhiOWE0YSIsImp0aSI6ImY2OWVlYjgwLWU1ZDEtNDczNi1iYmMxLTdlMmFiNjI1M2QyYyIsImlhdCI6IjE2OTMyMjI4ODEzNTgiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbiIsInBlcm1pc3Npb25zIjpbInVzZXJzIiwicHJvZHVjdHMiLCJyZXZpZXdzIiwiZGlzY291bnRzIiwiY2F0ZWdvcmllcyIsInJldHVybnMiLCJvcmRlcnMiLCJjYXJ0cyJdLCJuYmYiOjE2OTMyMjI4ODEsImV4cCI6MTY5MzIyNjQ4MSwiaXNzIjoiZWNvbW1lcmNlIn0.VcolPTZWXA0xDZdp4jeYTwmbmQBpfUy4qcMcPbXIz8A
+
+###
+GET {{url}}
+
+###
+GET {{url}}/Account
+Authorization: Bearer {{accessToken}}
+
+###
+POST {{url}}/Account/sign-up
+Content-Type: application/json
+
+{
+  "fullName": "Test Test",
+  "email": "test3@email.com",
+  "password": "Pa55w0rd!",
+  "role": "admin",
+  "claims": {
+    "permissions": [
+      "users",
+      "products",
+      "reviews",
+      "discounts",
+      "categories",
+      "returns",
+      "orders",
+      "carts"
+    ]
+  }
+}
+
+###
+POST {{url}}/Account/sign-in
+Content-Type: application/json
+
+{
+  "email": "test3@email.com",
+  "password": "Pa55w0rd!"
+}

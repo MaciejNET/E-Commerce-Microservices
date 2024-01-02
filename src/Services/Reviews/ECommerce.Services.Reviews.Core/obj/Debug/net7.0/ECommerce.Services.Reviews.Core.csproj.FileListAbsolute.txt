@@ -1,0 +1,17 @@
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Services.Reviews.Core.deps.json
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Services.Reviews.Core.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Services.Reviews.Core.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Shared.Abstractions.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Shared.Infrastructure.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Shared.Infrastructure.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/bin/Debug/net7.0/ECommerce.Shared.Abstractions.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.csproj.AssemblyReference.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.AssemblyInfoInputs.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.AssemblyInfo.cs
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.csproj.CoreCompileInputs.cache
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.csproj.CopyComplete
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/refint/ECommerce.Services.Reviews.Core.dll
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ECommerce.Services.Reviews.Core.pdb
+/Users/maciejnet/Projects/E-Commerce-Microservices/src/Services/Reviews/ECommerce.Services.Reviews.Core/obj/Debug/net7.0/ref/ECommerce.Services.Reviews.Core.dll

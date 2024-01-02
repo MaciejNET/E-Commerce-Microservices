@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/maciejnet/Projects/E-Commerce-Microservices/src/Shared/ECommerce.Shared.Abstractions/ECommerce.Shared.Abstractions.csproj": {}
+  },
+  "projects": {
+    "/Users/maciejnet/Projects/E-Commerce-Microservices/src/Shared/ECommerce.Shared.Abstractions/ECommerce.Shared.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/maciejnet/Projects/E-Commerce-Microservices/src/Shared/ECommerce.Shared.Abstractions/ECommerce.Shared.Abstractions.csproj",
+        "projectName": "ECommerce.Shared.Abstractions",
+        "projectPath": "/Users/maciejnet/Projects/E-Commerce-Microservices/src/Shared/ECommerce.Shared.Abstractions/ECommerce.Shared.Abstractions.csproj",
+        "packagesPath": "/Users/maciejnet/.nuget/packages/",
+        "outputPath": "/Users/maciejnet/Projects/E-Commerce-Microservices/src/Shared/ECommerce.Shared.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/maciejnet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Convey": {
+              "target": "Package",
+              "version": "[1.1.448, )"
+            },
+            "Convey.CQRS.Commands": {
+              "target": "Package",
+              "version": "[1.1.448, )"
+            },
+            "Convey.CQRS.Events": {
+              "target": "Package",
+              "version": "[1.1.448, )"
+            },
+            "Convey.CQRS.Queries": {
+              "target": "Package",
+              "version": "[1.1.448, )"
+            },
+            "Convey.MessageBrokers.CQRS": {
+              "target": "Package",
+              "version": "[1.1.448, )"
+            },
+            "Convey.MessageBrokers.RabbitMQ": {
+              "target": "Package",
+              "version": "[1.1.448, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <RootNamespace>ECommerce.Modules.Orders.Infrastructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ECommerce.Services.Orders.Application\ECommerce.Services.Orders.Application.csproj"/>
+
+
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Convey.CQRS.Queries" Version="1.1.448" />
+    </ItemGroup>
+
+
+</Project>
